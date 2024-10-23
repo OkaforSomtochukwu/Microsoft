@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Microsoft/static/css/main.bfa9ba15.css",
-    "main.js": "/Microsoft/static/js/main.6a40fc81.js",
+    "main.js": "/Microsoft/static/js/main.87c96151.js",
     "static/js/453.bd31cf0f.chunk.js": "/Microsoft/static/js/453.bd31cf0f.chunk.js",
     "static/media/privacy.png": "/Microsoft/static/media/privacy.70fe628b768173ada106.png",
     "static/media/microsoft-apps.png": "/Microsoft/static/media/microsoft-apps.7d8b6588e25dcd0b73b0.png",
@@ -10,11 +10,11 @@
     "static/media/cloud-storage.png": "/Microsoft/static/media/cloud-storage.a073142dba3800033265.png",
     "index.html": "/Microsoft/index.html",
     "main.bfa9ba15.css.map": "/Microsoft/static/css/main.bfa9ba15.css.map",
-    "main.6a40fc81.js.map": "/Microsoft/static/js/main.6a40fc81.js.map",
+    "main.87c96151.js.map": "/Microsoft/static/js/main.87c96151.js.map",
     "453.bd31cf0f.chunk.js.map": "/Microsoft/static/js/453.bd31cf0f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bfa9ba15.css",
-    "static/js/main.6a40fc81.js"
+    "static/js/main.87c96151.js"
   ]
 }
