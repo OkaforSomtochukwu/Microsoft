@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 const Call = () => {
   return (
@@ -10,9 +11,11 @@ const Call = () => {
 
 
         <div className='flex gap-5'>
-            <button className='mt-5 outline-transparent relative font-sans antialiased text-[14px] font-normal border border-transparent rounded-md box-border cursor-pointer inline-block px-3 text-decoration-none text-center min-w-[80px] h-auto bg-[rgb(0,111,201)] text-[rgb(242,242,242)] min-h-[32px] select-none'>
-            Sign in
-            </button>
+        <Link to="/login">
+        <button className='mt-5 outline-transparent relative font-sans antialiased text-[14px] font-normal border border-transparent rounded-md box-border cursor-pointer inline-block px-3 text-decoration-none text-center min-w-[80px] h-auto bg-[rgb(0,111,201)] text-[rgb(242,242,242)] min-h-[32px] select-none'>
+          Sign in
+        </button>
+        </Link>
             <button className='mt-5 outline-transparent relative font-sans antialiased text-[14px] font-normal border border-black border-spacing-4 rounded-md box-border cursor-pointer inline-block px-3 text-decoration-none text-center min-w-[80px] h-auto bg-[rgb(255,255,255)] text-[rgb(0,0,0)] min-h-[32px] select-none'>
             Create Account
             </button>

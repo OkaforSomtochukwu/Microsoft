@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -8,9 +9,11 @@ const Hero = () => {
         <p className="font-sans text-[14px] lg:text-[24px] font-normal text-[rgb(50,49,48)] inline leading-[1.4] antialiased p-1">Your Microsoft account connects all your Microsoft apps and services.</p>
         <p className="font-sans text-[14px] lg:text-[24px] font-normal text-[rgb(50,49,48)] inline leading-[1.4] antialiased">Sign in to manage your account.</p>
 
+        <Link to="/login">
         <button className='mt-5 outline-transparent relative font-sans antialiased text-[14px] font-normal border border-transparent rounded-md box-border cursor-pointer inline-block px-3 text-decoration-none text-center min-w-[80px] h-auto bg-[rgb(0,111,201)] text-[rgb(242,242,242)] min-h-[32px] select-none'>
           Sign in
         </button>
+        </Link>
       </div>
 
       <div className=' relative'>

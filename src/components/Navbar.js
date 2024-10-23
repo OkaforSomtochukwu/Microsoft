@@ -4,6 +4,7 @@ import { FaGripLines } from "react-icons/fa6";
 import { IoMdSearch } from "react-icons/io";
 import { CgProfile } from "react-icons/cg";
 import { PiLineVerticalBold } from "react-icons/pi";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -35,10 +36,11 @@ const Navbar = () => {
               <IoMdSearch className='text-[25px]' />
             </div>
 
-            <div className='flex items-center gap-2'>
-              <p className='hidden lg:block'>Sign In</p>
+            <Link to="/login" className='flex items-center gap-2'>
+              <button className='hidden lg:block'>  Sign In
               <CgProfile className='text-[25px]' />
-            </div>
+              </button>
+            </Link>
           </div>
         </div>
       </div>

@@ -1,26 +1,17 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import LandingPage from './LandingPage';
 import Login from './Login';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Products from './components/FeatureSection';
-import Solutions from './components/Solutions';
-import Questions from './components/Questions';
-import Support from './components/Support';
-import Call from './components/CallToAction';
-import Footer from './components/Footer';
+
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Hero />
-      <Products />
-      <Solutions />
-      <Support />
-      <Call />
-      <Questions />
-      <Footer />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
+    </Router>
   );
 }
 
